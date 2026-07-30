@@ -1,0 +1,5 @@
+SQL_HOST = "127.0.0.1"
+SQL_PORT = 3306
+SQL_USER = "root"
+SQL_PASSWORD = "root"
+SQL_DATABASE = "NatalieProj"
