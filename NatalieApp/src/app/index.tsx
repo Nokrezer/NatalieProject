@@ -8,12 +8,12 @@ import { mainPageStyles } from '@/styles/mainPage';
 import { createGlobalStyles } from '@/styles/global';
 
 
-export default function HomeScreen(){
+export default function HomeScreen() {
   const globalStyles = createGlobalStyles();
   return (
     <View style={{alignItems:"center", width:"100%"}}>
       <Image source={{uri:staticPath.natalieImage}} style={mainPageStyles.natalieImage}/>
-      <Text style={[{marginVertical:10}, globalStyles.pageTitle]}>Natalie</Text>
+      <Text style={[{marginVertical:10}, globalStyles.pageTitle]}>нахалка</Text>
       <Text style={globalStyles.text}>ТГК: <Link href="https://t.me/KamazikDobri">a</Link></Text>
       
     </View>
