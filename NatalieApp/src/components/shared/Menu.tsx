@@ -46,7 +46,7 @@ export function MenuComponent(){
           </TouchableOpacity>
 
           <View style={[{alignItems:"center", width:"100%"}]}>
-            <HoverText style={[menuStyles.menuMainTextPhone]}>Nahalka</HoverText>
+            <HoverText style={[menuStyles.menuMainTextPhone]}>Natalie</HoverText>
           </View>
         </View>
       );
@@ -61,7 +61,7 @@ export function MenuComponent(){
             </TouchableOpacity> : null}
 
           <Link style={[menuStyles.button, {textAlign:"center"}]} href="/">
-            <HoverText style={[{color:color}, menuStyles.text]}>Nahalka</HoverText>
+            <HoverText style={[{color:color}, menuStyles.text]}>Natalie</HoverText>
           </Link>
         </View>
 
